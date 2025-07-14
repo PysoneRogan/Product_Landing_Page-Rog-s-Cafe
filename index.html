@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rog's Cafe</title>
+  <link rel="icon" type="image/png" href="images/logo img.png">
+</head>
+
+<body>
+  <div id="page-wrapper">
+    <header id="header">
+      <div class="logo">
+        <img id="header-img" src="images\logo img.png" alt="Rog's Cafe logo">
+        <h4 class="store-name">Rog's Cafe</h4>
+      </div>
+
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#Video">Video</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <section id="hero">
+      <h2>Online Orders</h2>
+      <p><em>Skip the queue!</em></p>
+      <br>
+      <img src="images/div sec img_cropped.jpg" class="banner-img" alt="Short Banner">
+      <br>
+      <form id="form" action="https://www.freecodecamp.com/email-submit"><br>
+        <label for="mobile">Please enter your mobile number to proceed</label><br><br>
+        <select id="countryCode" name="countryCode">
+          <option value="+91">+91 (IN)</option>
+          <option value="+1">+1 (US)</option>
+          <option value="+44">+44 (UK)</option>
+          <option value="+61">+61 (AU)</option>
+        </select>
+        <input type="tel" id="mobile" name="mobile" placeholder="Enter number" pattern="[0-9]{10}" required>
+        <br>
+        <input id="submit" type="submit" value="Order Now!" class="btn">
+      </form>
+
+    </section>
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <div class="container">
+      <section id="features">
+        <div class="grid">
+          <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+          <div class="desc">
+            <h2>Premium Products</h2>
+            <p>We serve speciality coffee, from Rog's Coffee Farms, delicious cakes and hearty desserts. Whether you
+              want to grab a coffee before a walk around our stunning Estate or you’re planning a catch-up with a
+              friend, we’re ready to be your favourite coffee shop.</p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+          <div class="desc">
+            <h2>Faster Deliveries</h2>
+            <p>
+              We make sure you recieve your order as soon as we have
+              finished making it. We also provide free returns if we exceeds your waiting time. Feel free to use this
+              offer.</p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+          </div>
+          <div class="desc">
+            <h2> No Quality Compromise</h2>
+            <p>
+              Our products ensures a high quality menu, from ordering raw materials to our secrete key ingredients, thus
+              making our products a high standard one.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="how-it-works">
+        <iframe id="video" height="315" src="videos/coffee_making_trimmed_4k - Made with Clipchamp.mp4" frameborder="0"
+          allowfullscreen=""></iframe>
+      </section>
+      <section id="pricing">
+        <div class="product" id="Coffee">
+          <div class="level">Coffee</div>
+          <h2>₹219 Onwards</h2>
+          <ol>
+            <li>Espresso</li>
+            <li>Iced Coffee </li>
+            <li>Macchiato</li>
+            <li>Latte</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+        <div class="product" id="Dessert">
+          <div class="level">Dessert</div>
+          <h2>₹229 Onwards</h2>
+          <ol>
+            <li>Brownie Gelato</li>
+            <li>Banana Boat Pie</li>
+            <li>Flavoured Pudding</li>
+            <li>Tiramisu</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+
+        <div class="product" id="Smoothie">
+          <div class="level">Smoothie</div>
+          <h2>₹249 Onwards</h2>
+          <ol>
+            <li>Trophical Fruit Smoothie</li>
+            <li>Mix Seeds Smoothie</li>
+            <li>Peanut Butter & Walnut Smoothie</li>
+            <li>Blueberry Smoothie</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2025, Rog's Cafe</span>
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>
