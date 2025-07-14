@@ -151,6 +151,7 @@ nav {
 }
 
 @media (max-width: 650px) {
+  
   nav {
     margin-top: 10px;
     width: 100%;
@@ -163,6 +164,18 @@ nav {
 
   nav li {
     padding-bottom: 5px;
+  }
+  .logo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+
+  .store-name {
+    font-size: 1.3rem; /* slightly smaller on mobile */
   }
 }
 
